@@ -20,7 +20,7 @@ header{
 }
 
 .topmenu li{
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-size: 0.5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -28,7 +28,7 @@ header{
   margin-top: 2rem;
 }
 .topmenu li:nth-child(4){
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .topmenu li > span{
@@ -41,7 +41,7 @@ header{
 }
 
 .topmenu li a:hover{
-  border-bottom: 1px solid #fff;
+  border-bottom: 0.0625rem solid #fff;
 }
 
 .topmenu li a.menu_text_color{
@@ -76,13 +76,13 @@ img{
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 27px 45px 0 45px;
+  border-width: 1.6875rem 2.8125rem 0 2.8125rem;
   border-color: #323232 transparent transparent transparent;
   z-index: 100;
 }
 
 .slider{
-  height: 45.0625rem;
+  height: 43.375rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@ img{
 .wrapper-slider{
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
+  margin-top: 4rem;
 }
 
 .first-line{
@@ -106,7 +106,7 @@ img{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: -46px;
+  margin-top: -2.8125rem;
 }
 
 .therd-line{
@@ -114,140 +114,140 @@ img{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: -46px;
+  margin-top: -2.8125rem;
 }
 
 .wrapper_hexagon{
-  padding: 0 5px;
+  padding: 0 0.3125rem;
 }
 
 .hexagon1{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer33.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon2{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer31.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon3{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer34.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon4{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer35.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon5{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer36.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon6{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer44.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon7{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer37.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon8{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer38.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon9{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer39.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon10{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer40.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon11{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer41.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon12{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer43.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon13{
   position: relative;
-  width: 180px; 
-  height: 103.92px;
-  margin: 51.96px 0;
+  width: 11.25rem; 
+  height: 6.4375rem;
+  margin: 3.1875rem 0;
   background-image: url(assets/Layer42.png);
-  background-size: auto 207.8461px;
+  background-size: auto 12.9375rem;
   background-position: center;
 }
 
@@ -255,22 +255,22 @@ img{
 .hexBottom {
   position: absolute;
   z-index: 1;
-  width: 127.28px;
-  height: 127.28px;
+  width: 7.9375rem;
+  height: 7.9375rem;
   overflow: hidden;
   -webkit-transform: scaleY(0.5774) rotate(-45deg);
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background: inherit;
-  left: 26.36px;
+  left: 1.625rem;
 }
 
 .hexTop:after,
 .hexBottom:after {
   content: "";
   position: absolute;
-  width: 180.0000px;
-  height: 103.92304845413264px;
+  width: 11.25rem;
+  height: 6.4375rem;
   -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-51.9615px);
   -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-51.9615px);
   transform:          rotate(45deg) scaleY(1.7321) translateY(-51.9615px);
@@ -281,7 +281,7 @@ img{
 }
 
 .hexTop {
-  top: -63.6396px;
+  top: -3.9375rem;
 }
 
 .hexTop:after {
@@ -289,7 +289,7 @@ img{
 }
 
 .hexBottom {
-  bottom: -63.6396px;
+  bottom: -3.9375rem;
 }
 
 .hexBottom:after {
@@ -299,10 +299,53 @@ img{
 .hexagon:after {
   content: "";
   position: absolute;
-  top: 0.0000px;
+  top: 0;
   left: 0;
-  width: 180.0000px;
-  height: 103.9230px;
+  width: 11.25rem;
+  height: 6.4375rem;
   z-index: 2;
   background: inherit;
+}
+
+.radio-toolbar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.75rem;
+}
+
+input{
+  display: none;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  width: 0.375rem;
+  height: 0.375rem;
+  margin: 0 0.1875rem;
+  cursor: pointer;
+}
+
+.button span {
+  display: block;
+  position: absolute;
+  margin: 0 auto 0 1.6875rem;
+  width: 0.375rem;
+  height: 0.375rem;
+  background: #ddd2c5;
+  transition: ease .3s;
+}
+
+.button span:hover {
+  border: 1px solid #8b8784;
+}
+
+input:checked ~ .button span{
+  background-color: #8b8784;
+}
+
+.line{
+  width: 60rem;
+  border-bottom: 0.0625rem solid #e4e9eb;
+  margin: 0.6875rem auto 0 auto;
 }
