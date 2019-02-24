@@ -7,6 +7,17 @@ src: url('assets/fonts/lato_bold.eot?#iefix') format('embedded-opentype'), /* IE
   url('assets/fonts/lato_bold.svg#lato_bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
+@font-face {
+	font-family: 'MavenProRegular';
+	src: url('../fonts/mavenproregular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/mavenproregular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/mavenproregular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/mavenproregular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/mavenproregular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/mavenproregular.svg#mavenproregular') format('svg'); /* Chrome < 4, Legacy iOS */
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -282,4 +293,54 @@ input{
   width: 60rem;
   border-bottom: 0.0625rem solid #e4e9eb;
   margin: 0.6875rem auto 0 auto;
+}
+
+.about-wrapper{
+  display: flex;
+  height: 21.3125rem;
+  background-color: #2eb398;
+}
+
+.wall{
+  height: 19.75rem;
+  width: 51.25rem;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  border-left: 0.0625rem solid #219d84;
+  border-right: 0.0625rem solid #219d84;
+}
+
+.about-photo-wrapper{
+  padding: 4.25rem 1.25rem 0 1.25rem;
+  outline: 1px dotted red;
+}
+
+.about-photo{
+  background-image: url(assets/image.jpeg);
+}
+
+.about{
+  outline: 1px dotted red;
+}
+
+h1{
+  font-family: 'MavenProRegular', sans-serif;
+  font-size: 1.875rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+h3{
+  font-family: 'MavenProRegular', sans-serif;
+  font-size: 1.125rem;
+  color: #20816d;
+  font-weight: 100;
+}
+
+.about p{
+  font-family: 'MavenProRegular', sans-serif;
+  font-size: 0.75rem;
+  color: #20816d;
+  font-weight: 100;
 }
