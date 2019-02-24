@@ -356,5 +356,47 @@ h3{
 }
 
 .social{
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 42px 1.25rem 0 0;
+}
+
+.social a{
+  background-image: url(assets/social.jpg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 25px;
+}
+
+a.facebook{
+  background-position: 0 0;
+}
+
+.twitter{
+  background-position: -25px 0;
+}
+
+.google{
+  background-position: -49px 0;
+}
+
+.dribbble{
+  background-position: -74px 0;
+}
+
+.linkedin{
+  background-position: -98px 0;
+}
+
+.pinterest{
+  background-position: -124px 0;
+}
+
+.gradient{
+  background: #00ab94;
+  background: -moz-linear-gradient(top, #00ab94 0%, #ffffff 99%);
+  background: -webkit-linear-gradient(top, #00ab94 0%,#ffffff 99%);
+  background: linear-gradient(to bottom, #00ab94 0%,#ffffff 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ab94', endColorstr='#ffffff',GradientType=0 );
 }
