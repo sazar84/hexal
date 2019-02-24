@@ -1,31 +1,22 @@
-font-family: 'Lato Bold';
-src: url('assets/fonts/lato_bold.eot'); /* IE 9 Compatibility Mode */
-src: url('assets/fonts/lato_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-  url('assets/fonts/lato_bold.woff2') format('woff2'), /* Super Modern Browsers */
-  url('assets/fonts/lato_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-  url('assets/fonts/lato_bold.ttf') format('truetype'), /* Safari, Android, iOS */
-  url('assets/fonts/lato_bold.svg#lato_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+@font-face {font-family:"Lato Bold";
+  src:url("assets/fonts/Lato-Bold.eot?") format("eot"),
+  url("assets/fonts/Lato-Bold.woff") format("woff"),
+  url("assets/fonts/Lato-Bold.ttf") format("truetype"),
+  url("assets/fonts/Lato-Bold.svg#Lato-Bold") format("svg");
 }
 
-@font-face {
-	font-family: 'MavenProRegular';
-	src: url('assets/fonts/mavenproregular.eot'); /* IE 9 Compatibility Mode */
-	src: url('assets/fonts/mavenproregular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('assets/fonts/mavenproregular.woff2') format('woff2'), /* Super Modern Browsers */
-		url('assets/fonts/mavenproregular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('assets/fonts/mavenproregular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('assets/fonts/mavenproregular.svg#mavenproregular') format('svg'); /* Chrome < 4, Legacy iOS */
-
+@font-face {font-family:"Maven Pro Regular";
+  src:url("assets/fonts/MavenPro-Regular.eot?") format("eot"),
+  url("assets/fonts/MavenPro-Regular.woff") format("woff"),
+  url("assets/fonts/MavenPro-Regular.ttf") format("truetype"),
+  url("assets/fonts/MavenPro-Regular.svg#MavenProRegular") format("svg");
 }
 
-@font-face {
-	font-family: 'Lato Regular';
-	src: url('assets/fonts/lato_regular.eot'); /* IE 9 Compatibility Mode */
-	src: url('assets/fonts/lato_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('assets/fonts/lato_regular.woff2') format('woff2'), /* Super Modern Browsers */
-		url('assets/fonts/lato_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('assets/fonts/lato_regular.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('assets/fonts/lato_regular.svg#lato_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+@font-face {font-family:"Lato Regular";
+  src:url("assets/fonts/Lato-Regular.eot?") format("eot"),
+  url("assets/fonts/Lato-Regular.woff") format("woff"),
+  url("assets/fonts/Lato-Regular.ttf") format("truetype"),
+  url("assets/fonts/Lato-Regular.svg#Lato-Regular") format("svg");
 }
 
 *{
@@ -331,29 +322,31 @@ input{
 
 .about{
   align-content: center;
-  outline: 1px dotted red;
 }
 
 h1{
-  font-family: 'MavenProRegular', sans-serif;
+  font-family: 'Maven Pro Regular', sans-serif;
   text-align: justify;
   font-size: 1.875rem;
+  font-weight: normal;
   color: #fff;
-  font-weight: 100;
   padding: 4.25rem 0 0.75rem 0;
 }
 
 h3{
-  font-family: 'MavenProRegular', sans-serif;
+  font-family: 'Maven Pro Regular', sans-serif;
   font-size: 1.125rem;
+  font-weight: normal;
   color: #20816d;
-  font-weight: 100;
+  padding-bottom: 1.5rem;
 }
 
 .about p{
   font-family: 'Lato Regular', sans-serif;
   text-align: justify;
   font-size: 0.75rem;
-  color: #fff;
+  letter-spacing: 2;
   font-weight: 100;
+  color: #fff;
+  padding-right: 1.25rem;
 }
