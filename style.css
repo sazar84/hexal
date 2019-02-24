@@ -369,30 +369,47 @@ h3{
   height: 1.5625rem;
 }
 
- a.facebook{
+a.facebook{
   background-position: 0 0;
 }
 
- a.twitter{
+a.twitter{
   background-position: -1.5625rem 0;
 }
 
- a.google{
+a.google{
   background-position: -3.0625rem 0;
 }
 
- a.dribbble{
+a.dribbble{
   background-position: -4.625rem 0;
 }
 
- a.linkedin{
+a.linkedin{
   background-position: -6.125rem 0;
 }
 
- a.pinterest{
+a.pinterest{
   background-position: -7.6875rem 0;
 }
 
 .social a:hover{
   opacity: 0.7;
+}
+
+.feedback{
+  height: 35.25rem;
+  background-color: #323232;
+}
+
+footer{
+  height: 2.6875rem;
+  background-color: #222222;
+  text-align: justifyLeft;
+}
+footer h3{
+  font-family: 'Maven Pro Regular', sans-serif;
+  font-size: 0.75rem;
+  color: rgb(69, 69, 69);
+  padding: 1rem 0 0 2.5rem;
 }
