@@ -359,44 +359,40 @@ h3{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 42px 1.25rem 0 0;
+  padding: 2.625rem 1.25rem 0 0;
 }
 
 .social a{
-  background-image: url(assets/social.jpg);
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 25px;
+  display: flex;
+  background-image: url(assets/social-grad.jpg);
+  width: 1.5rem;
+  height: 1.5625rem;
 }
 
-a.facebook{
+ a.facebook{
   background-position: 0 0;
 }
 
-.twitter{
-  background-position: -25px 0;
+ a.twitter{
+  background-position: -1.5625rem 0;
 }
 
-.google{
-  background-position: -49px 0;
+ a.google{
+  background-position: -3.0625rem 0;
 }
 
-.dribbble{
-  background-position: -74px 0;
+ a.dribbble{
+  background-position: -4.625rem 0;
 }
 
-.linkedin{
-  background-position: -98px 0;
+ a.linkedin{
+  background-position: -6.125rem 0;
 }
 
-.pinterest{
-  background-position: -124px 0;
+ a.pinterest{
+  background-position: -7.6875rem 0;
 }
 
-.gradient{
-  background: #00ab94;
-  background: -moz-linear-gradient(top, #00ab94 0%, #ffffff 99%);
-  background: -webkit-linear-gradient(top, #00ab94 0%,#ffffff 99%);
-  background: linear-gradient(to bottom, #00ab94 0%,#ffffff 99%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ab94', endColorstr='#ffffff',GradientType=0 );
+.social a:hover{
+  opacity: 0.7;
 }
