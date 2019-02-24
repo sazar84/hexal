@@ -9,13 +9,23 @@ src: url('assets/fonts/lato_bold.eot?#iefix') format('embedded-opentype'), /* IE
 
 @font-face {
 	font-family: 'MavenProRegular';
-	src: url('../fonts/mavenproregular.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/mavenproregular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/mavenproregular.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/mavenproregular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/mavenproregular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/mavenproregular.svg#mavenproregular') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('assets/fonts/mavenproregular.eot'); /* IE 9 Compatibility Mode */
+	src: url('assets/fonts/mavenproregular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('assets/fonts/mavenproregular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('assets/fonts/mavenproregular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('assets/fonts/mavenproregular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('assets/fonts/mavenproregular.svg#mavenproregular') format('svg'); /* Chrome < 4, Legacy iOS */
 
+}
+
+@font-face {
+	font-family: 'Lato Regular';
+	src: url('assets/fonts/lato_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('assets/fonts/lato_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('assets/fonts/lato_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('assets/fonts/lato_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('assets/fonts/lato_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('assets/fonts/lato_regular.svg#lato_regular') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
 *{
@@ -313,7 +323,6 @@ input{
 
 .about-photo-wrapper{
   padding: 4.25rem 1.25rem 0 1.25rem;
-  outline: 1px dotted red;
 }
 
 .about-photo{
@@ -321,14 +330,17 @@ input{
 }
 
 .about{
+  align-content: center;
   outline: 1px dotted red;
 }
 
 h1{
   font-family: 'MavenProRegular', sans-serif;
+  text-align: justify;
   font-size: 1.875rem;
   color: #fff;
   font-weight: 100;
+  padding: 4.25rem 0 0.75rem 0;
 }
 
 h3{
@@ -339,8 +351,9 @@ h3{
 }
 
 .about p{
-  font-family: 'MavenProRegular', sans-serif;
+  font-family: 'Lato Regular', sans-serif;
+  text-align: justify;
   font-size: 0.75rem;
-  color: #20816d;
+  color: #fff;
   font-weight: 100;
 }
