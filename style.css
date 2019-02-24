@@ -134,61 +134,60 @@ img{
   width: 11.25rem; 
   height: 6.4375rem;
   margin: 3.1875rem 0;
-  background-image: url(assets/Layer33.png);
   background-size: auto 12.9375rem;
   background-position: center;
 }
 
 .hexagon1{
-  background-image: url(assets/Layer33.png);
+  background-image: url(assets/Layer33.jpeg);
 }
 
 .hexagon2{
-  background-image: url(assets/Layer31.png);
+  background-image: url(assets/Layer31.jpeg);
 }
 
 .hexagon3{
-  background-image: url(assets/Layer34.png);
+  background-image: url(assets/Layer34.jpeg);
 }
 
 .hexagon4{
-  background-image: url(assets/Layer35.png);
+  background-image: url(assets/Layer35.jpeg);
 }
 
 .hexagon5{
-  background-image: url(assets/Layer36.png);
+  background-image: url(assets/Layer36.jpeg);
 }
 
 .hexagon6{
-  background-image: url(assets/Layer44.png);
+  background-image: url(assets/Layer44.jpeg);
 }
 
 .hexagon7{
-  background-image: url(assets/Layer37.png);
+  background-image: url(assets/Layer37.jpeg);
 }
 
 .hexagon8{
-  background-image: url(assets/Layer38.png);
+  background-image: url(assets/Layer38.jpeg);
 }
 
 .hexagon9{
-  background-image: url(assets/Layer39.png);
+  background-image: url(assets/Layer39.jpeg);
 }
 
 .hexagon10{
-  background-image: url(assets/Layer40.png);
+  background-image: url(assets/Layer40.jpeg);
 }
 
 .hexagon11{
-  background-image: url(assets/Layer41.png);
+  background-image: url(assets/Layer41.jpeg);
 }
 
 .hexagon12{
-  background-image: url(assets/Layer43.png);
+  background-image: url(assets/Layer43.jpeg);
 }
 
 .hexagon13{
-  background-image: url(assets/Layer42.png);
+  background-image: url(assets/Layer42.jpeg);
 }
 
 .hexTop,
@@ -250,7 +249,7 @@ img{
 .radio-toolbar{
   display: flex;
   flex-direction: row;
-  margin-top: 3.75rem;
+  margin: 3.75rem auto 0 1.6875rem;
 }
 
 input{
@@ -258,29 +257,24 @@ input{
 }
 
 .button{
-  display: flex;
-  flex-direction: row;
   width: 0.375rem;
   height: 0.375rem;
   margin: 0 0.1875rem;
-  cursor: pointer;
-}
-
-span.button{
-  display: block;
-  position: absolute;
-  margin: 0 auto 0 1.6875rem;
-  width: 0.375rem;
-  height: 0.375rem;
   background: #ddd2c5;
+  cursor: pointer;
   transition: ease .3s;
 }
 
-span.button:hover {
-  border: 1px solid #8b8784;
+.button:hover{
+  outline: 1px solid #8b8784;
 }
 
-input:checked ~ span.button{
+#i1:checked ~ .radio-toolbar #dot1,
+#i2:checked ~ .radio-toolbar #dot2,
+#i3:checked ~ .radio-toolbar #dot3,
+#i4:checked ~ .radio-toolbar #dot4,
+#i5:checked ~ .radio-toolbar #dot5,
+#i6:checked ~ .radio-toolbar #dot6{
   background-color: #8b8784;
 }
 
