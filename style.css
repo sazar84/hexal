@@ -64,7 +64,11 @@ header{
   border-bottom: 0.0625rem solid #fff;
 }
 
-.topmenu li a.menu-text-color{
+.topmenu li:hover:nth-child(4) a{
+  border-bottom: none;
+}
+
+.topmenu li:nth-child(1) a{
   color: #2eb398;
 }
 
@@ -349,4 +353,8 @@ h3{
   font-weight: 100;
   color: #fff;
   padding-right: 1.25rem;
+}
+
+.social{
+  
 }
