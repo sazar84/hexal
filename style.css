@@ -34,17 +34,13 @@ header{
 
 .topmenu{
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-
-  padding: 0;
-  margin: 0;
 }
 
 .topmenu li{
   font-family: 'Lato Bold', sans-serif;
-  font-size: 0.5rem;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
   text-transform: uppercase;
   list-style-type: none;
   margin-top: 2rem;
@@ -52,6 +48,7 @@ header{
 }
 .topmenu li:nth-child(4){
   margin-top: 0.625rem;
+  margin-right: 2.3rem;
 }
 
 .topmenu li > a{
@@ -69,24 +66,25 @@ header{
 
 .topmenu li:nth-child(1) a{
   color: #2eb398;
+  padding-left: 20.375rem;
 }
 
 .topmenu li:nth-child(2) {
   padding-left: 0.6875rem;
-  padding-right: 0.6875rem;
+  padding-right: 0.75rem;
 }
 
 .topmenu li:nth-child(3) {
-  padding-right: 2.5rem;
+  padding-right: 2.4375rem;
 }
 
 .topmenu li:nth-child(5) {
-  padding-left: 2.5rem;
+  padding-left: 0rem;
 }
 
 .topmenu li:nth-child(6) {
   padding-left: 0.6875rem;
-  padding-right: 0.6875rem;
+  padding-right: 0.75rem;
 }
 
 .topmenu img{
@@ -95,7 +93,7 @@ header{
 }
 
 .trangle{
-  margin: -0.625rem auto 0 auto;
+  margin: -0.105rem auto 0 auto;
   width: 0;
   height: 0;
   border-style: solid;
@@ -114,7 +112,7 @@ header{
 .wrapper-slider{
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
+  margin-top: 4.1rem;
 }
 
 .first-line{
@@ -129,7 +127,7 @@ header{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: -2.8125rem;
+  margin-top: -2.12rem;
 }
 
 .therd-line{
@@ -137,7 +135,7 @@ header{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: -2.8125rem;
+  margin-top: -2.2rem;
 }
 
 .wrapper_hexagon{
@@ -148,7 +146,7 @@ header{
   position: relative;
   width: 11.25rem; 
   height: 6.4375rem;
-  margin: 3.1875rem 0;
+  margin: 3.13rem 0.3rem;
   background-size: auto 12.9375rem;
   background-position: center;
 }
@@ -264,7 +262,7 @@ header{
 .radio-toolbar{
   display: flex;
   flex-direction: row;
-  margin: 3.75rem auto 0 1.6875rem;
+  margin: 3.85rem auto 0 1.4rem;
 }
 
 input{
@@ -274,7 +272,7 @@ input{
 .button{
   width: 0.375rem;
   height: 0.375rem;
-  margin: 0 0.1875rem;
+  margin: 0 0.16rem;
   background: #ddd2c5;
   cursor: pointer;
   transition: ease .3s;
@@ -329,9 +327,9 @@ input{
 
 h1{
   font-family: 'Maven Pro Regular', sans-serif;
-  text-align: justify;
+  text-align: left;
   font-size: 1.875rem;
-  font-weight: normal;
+  font-weight: 100;
   color: #fff;
   padding: 4.25rem 0 0.75rem 0;
 }
