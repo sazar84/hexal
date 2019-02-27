@@ -378,9 +378,9 @@ h3{
   display: flex;
   width: 24px;
   height: 25px;
-  /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 30%, rgba(0,171,148,0.8) 100%), url(assets/social.jpg); */
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 30%, rgba(0,171,148,0.8) 100%), url(assets/social.jpg); */
   /* background: url(assets/social.jpg); */
-  background: url(assets/social-grad.jpg); /* градиент как в фотошопе не работает */
+  background: url(assets/social-grad.jpg); /* применил спрайт с наложенным в фотошопе градиентом, т.к.на CSS градиент как в фотошопе не работает ¯\_(ツ)_/¯ (пробовал разные варианты ... ) */
   cursor: pointer;
 }
 
