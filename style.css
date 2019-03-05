@@ -62,12 +62,9 @@ header{
   width: 100%;
 }
 
-.topmenu li:nth-child(1) a{
-  color: #2eb398;
-}
-
 .topmenu li a:hover{
-  border-bottom: 1px solid #fff;
+  color: #2eb398;
+  border-bottom: 1px solid #2eb398;
 }
 
 .topmenu li:nth-child(4) a:hover{
